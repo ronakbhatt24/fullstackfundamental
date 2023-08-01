@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Set a minimum height for the main content area */
+  }
+  
+  header {
+    background-color: purple; /* Change header background color to purple */
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Montserrat', sans-serif; /* Add the custom font */
+    font-size: 20px; /* Increase font size to 20 pixels */
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    flex: 1; /* Allow main content area to grow and push footer down */
+    padding: 2rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  #featured-recipe {
+    text-align: center; /* Center the featured recipe section */
+  }
+  
+  #featured-recipe .featured-recipes-container {
+    display: flex;
+    justify-content: space-between; /*
+  
