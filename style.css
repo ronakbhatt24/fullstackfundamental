@@ -40,17 +40,31 @@ body {
   main {
     flex: 1; /* Allow main content area to grow and push footer down */
     padding: 2rem;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
   }
   
   section {
     margin-bottom: 2rem;
   }
   
-  #featured-recipe {
-    text-align: center; /* Center the featured recipe section */
+  #featured-recipe img,
+  #recipes img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
   }
   
-  #featured-recipe .featured-recipes-container {
-    display: flex;
-    justify-content: space-between; /*
+  /* Remove bullet points from recipe instructions */
+  #featured-recipe ul {
+    list-style: none;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
   
